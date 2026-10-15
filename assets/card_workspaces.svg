@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="408" height="184" viewBox="0 0 408 184" role="img" aria-label="AWS WorkSpaces, multi-region: Terragrunt/Terraform template for WorkSpaces across regions. Preflight validation, Well-Architected docs, sanitized.">
+  <title>AWS WorkSpaces, multi-region: Terragrunt/Terraform template for WorkSpaces across regions. Preflight validation, Well-Architected docs, sanitized.</title>
+  <rect x="0.5" y="0.5" width="407" height="183" rx="10" fill="#24273a" stroke="#363a4f"/>
+  <rect x="0" y="12" width="4" height="160" rx="2" fill="#f5a97f"/>
+  <text x="28" y="44" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="22" font-weight="700" fill="#f5a97f">AWS WorkSpaces, multi-region</text>
+  <text x="28" y="76" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#cad3f5">Terragrunt/Terraform template for WorkSpaces</text>
+  <text x="28" y="98" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#cad3f5">across regions. Preflight validation,</text>
+  <text x="28" y="120" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#cad3f5">Well-Architected docs, sanitized.</text>
+  <text x="28" y="164" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#b97a5c">github.com/eventually-consistent-code/aws-workspaces-multi-region-deployment</text>
+</svg>

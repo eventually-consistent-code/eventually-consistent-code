@@ -1,0 +1,55 @@
+# Renders assets/metrics.svg (stats + streak + languages) into THIS repo
+# once a day, so the profile README never depends on a third-party image
+# server. Needs one secret: METRICS_TOKEN, a classic PAT with public_repo
+# and read:user (add repo if private contributions should count).
+# Pinned to lowlighter/metrics v3.34 by commit sha.
+name: metrics
+
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [".github/workflows/metrics.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: metrics
+  cancel-in-progress: true
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: eventually-consistent-code
+          filename: assets/metrics.svg
+          committer_branch: main
+          committer_message: "assets: refresh metrics.svg"
+          template: classic
+          base: header, activity, community, repositories
+          base_indepth: no
+          config_timezone: America/Chicago
+          config_display: large
+          config_animations: no
+          config_padding: 0, 0
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
+          plugin_languages: yes
+          plugin_languages_sections: most-used
+          plugin_languages_limit: 6
+          plugin_languages_ignored: html, css, shell
+          plugin_languages_colors: "f5a97f, f4dbd6, c6a0f6, 8aadf4, a6da95, 91d7e3"
+          # Palette override. Unverified against the classic template until the
+          # first run (as of 2026-10-15, selectors taken from metrics' classic
+          # template source); adjust after the first metrics.svg lands.
+          extras_css: |
+            svg, body { background: #24273a !important; }
+            h1, h2 { color: #f5a97f !important; border-color: #b97a5c !important; }
+            .field, .row, .text, .legend, span, p { color: #cad3f5 !important; }
+            text { fill: #cad3f5 !important; }

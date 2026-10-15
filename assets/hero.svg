@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="830" height="172" viewBox="0 0 830 172" role="img" aria-label="John Reed: 28 years of infrastructure. Now building with AI.">
+  <title>John Reed: 28 years of infrastructure. Now building with AI.</title>
+  <rect x="0.5" y="0.5" width="829" height="171" rx="10" fill="#24273a" stroke="#363a4f"/>
+  <rect x="0" y="12" width="4" height="148" rx="2" fill="#f5a97f"/>
+  <text x="32" y="64" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="34" font-weight="700" fill="#f5a97f">John Reed</text>
+  <text x="32" y="104" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20" fill="#cad3f5">28 years of infrastructure. Now building with AI.</text>
+  <text x="32" y="140" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#a5adcb">Cloud / SRE / DevOps / ex-AWS TAM / Terraform / distributed DBs</text>
+  <text x="798" y="140" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#b97a5c">eventually-consistent.io</text>
+</svg>
