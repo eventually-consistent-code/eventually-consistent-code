@@ -187,6 +187,16 @@ def manifesto():
     write("manifesto", frame(FULL_W, 96, body, MANIFESTO))
 
 
+def metrics_placeholder():
+    """
+    Stand-in for metrics.svg so the README never shows a broken image.
+    The metrics workflow overwrites this file on its first successful run.
+    """
+    body = f"""  <text x="{FULL_W / 2}" y="52" text-anchor="middle" font-family="{FONT}" font-size="16" fill="{TEXT}">status renders here daily once the metrics workflow runs...</text>
+  <text x="{FULL_W / 2}" y="78" text-anchor="middle" font-family="{FONT}" font-size="12" fill="{SUBTEXT}">commits / streak / most-used languages, rendered into this repo, no third-party image server</text>"""
+    write("metrics", frame(FULL_W, 108, body, "GitHub activity placeholder, replaced daily by the metrics workflow"))
+
+
 def post_card(post):
     """
     Full-width writing card: date, title, one-line hook.
@@ -205,7 +215,7 @@ def main():
     """
     LOG.info("rendering profile assets...")
     errors = 0
-    jobs = [hero, manifesto] + [lambda p=p: product_card(p) for p in PRODUCTS] + [lambda p=p: post_card(p) for p in POSTS]
+    jobs = [hero, manifesto] + ([metrics_placeholder] if not os.path.exists(os.path.join(OUT_DIR, "metrics.svg")) else []) + [lambda p=p: product_card(p) for p in PRODUCTS] + [lambda p=p: post_card(p) for p in POSTS]
     for job in jobs:
         try:
             job()

@@ -12,7 +12,7 @@
 
 <a href="https://github.com/eventually-consistent-code/cairn2"><img src="https://raw.githubusercontent.com/eventually-consistent-code/eventually-consistent-code/main/assets/card_cairn.svg" width="408" alt="cairn: converged work management for AI CLIs"></a>
 
-<a href="https://github.com/eventually-consistent-code/cairn2#quickstart"><img src="https://img.shields.io/badge/%E2%96%B6-INSTALL%20CAIRN-f5a97f?style=for-the-badge&labelColor=b97a5c" height="34" alt="Install cairn"></a>
+<a href="https://github.com/eventually-consistent-code/cairn2#documentation"><img src="https://img.shields.io/badge/%E2%96%B6-INSTALL%20CAIRN-f5a97f?style=for-the-badge&labelColor=b97a5c" height="34" alt="Install cairn"></a>
 
 ```text
 /plugin marketplace add eventually-consistent-code/cairn2
@@ -38,7 +38,7 @@ cd okrdokey && docker compose up
 
 <a href="https://github.com/eventually-consistent-code/TagManager"><img src="https://raw.githubusercontent.com/eventually-consistent-code/eventually-consistent-code/main/assets/card_tagmanager.svg" width="408" alt="TagManager: multi-cloud tag compliance"></a>
 
-<a href="https://github.com/eventually-consistent-code/TagManager#quickstart"><img src="https://img.shields.io/badge/%E2%96%B6-RUN%20TAGMANAGER-f5a97f?style=for-the-badge&labelColor=b97a5c" height="34" alt="Run TagManager"></a>
+<a href="https://github.com/eventually-consistent-code/TagManager#quick-start"><img src="https://img.shields.io/badge/%E2%96%B6-RUN%20TAGMANAGER-f5a97f?style=for-the-badge&labelColor=b97a5c" height="34" alt="Run TagManager"></a>
 
 ```bash
 git clone https://github.com/eventually-consistent-code/TagManager.git
