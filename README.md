@@ -47,6 +47,9 @@ gh repo clone eventually-consistent-code/aws-workspaces-multi-region-deployment
 <p align="center">
   <a href="https://eventually-consistent.io"><img src="https://img.shields.io/badge/eventually--consistent.io-f5a97f?style=for-the-badge&labelColor=b97a5c&logo=hugo&logoColor=24273a" height="34" alt="eventually-consistent.io"></a>
   <a href="https://eventually-consistent.io/index.xml"><img src="https://img.shields.io/badge/RSS-f5a97f?style=for-the-badge&labelColor=b97a5c&logo=rss&logoColor=24273a" height="34" alt="RSS feed"></a>
+  <a href="https://www.linkedin.com/in/jsreed5"><img src="https://img.shields.io/badge/LinkedIn-f5a97f?style=for-the-badge&labelColor=b97a5c&logo=linkedin&logoColor=24273a" height="34" alt="LinkedIn: in/jsreed5"></a>
+  <a href="https://johnreedec.substack.com"><img src="https://img.shields.io/badge/Substack-f5a97f?style=for-the-badge&labelColor=b97a5c&logo=substack&logoColor=24273a" height="34" alt="Substack"></a>
+  <a href="https://www.youtube.com/@JohnReed_EC"><img src="https://img.shields.io/badge/YouTube-f5a97f?style=for-the-badge&labelColor=b97a5c&logo=youtube&logoColor=24273a" height="34" alt="YouTube: @JohnReed_EC"></a>
   <a href="https://github.com/eventually-consistent-code?tab=repositories"><img src="https://img.shields.io/badge/all%20repos-f5a97f?style=for-the-badge&labelColor=b97a5c&logo=github&logoColor=24273a" height="34" alt="All repositories"></a>
 </p>
 
