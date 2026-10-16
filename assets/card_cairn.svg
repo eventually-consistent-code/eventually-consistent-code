@@ -1,16 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="408" height="276" viewBox="0 0 408 276" role="img" aria-label="cairn: Converged work management for AI CLIs. Tracker-truth planning, provenance-checked memory, one typed MCP server. INSTALL CAIRN: /plugin marketplace add eventually-consistent-code/cairn2 /plugin install cairn@cairn-dev">
-  <title>cairn: Converged work management for AI CLIs. Tracker-truth planning, provenance-checked memory, one typed MCP server. INSTALL CAIRN: /plugin marketplace add eventually-consistent-code/cairn2 /plugin install cairn@cairn-dev</title>
-  <rect x="0.5" y="0.5" width="407" height="275" rx="10" fill="#24273a" stroke="#363a4f"/>
-  <rect x="0" y="12" width="4" height="252" rx="2" fill="#f5a97f"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="408" height="293" viewBox="0 0 408 293" role="img" aria-label="cairn: Converged work management for AI CLIs. Tracker-truth planning, provenance-checked memory, one typed MCP server. INSTALL CAIRN: /plugin marketplace add \   eventually-consistent-code-org/cairn2 /plugin install cairn@cairn-dev">
+  <title>cairn: Converged work management for AI CLIs. Tracker-truth planning, provenance-checked memory, one typed MCP server. INSTALL CAIRN: /plugin marketplace add \   eventually-consistent-code-org/cairn2 /plugin install cairn@cairn-dev</title>
+  <rect x="0.5" y="0.5" width="407" height="292" rx="10" fill="#24273a" stroke="#363a4f"/>
+  <rect x="0" y="12" width="4" height="269" rx="2" fill="#f5a97f"/>
   <text x="28" y="44" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="22" font-weight="700" fill="#f5a97f">cairn</text>
   <text x="28" y="76" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#cad3f5">Converged work management for AI CLIs.</text>
   <text x="28" y="98" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#cad3f5">Tracker-truth planning, provenance-checked</text>
   <text x="28" y="120" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#cad3f5">memory, one typed MCP server.</text>
-  <text x="28" y="148" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#b97a5c">github.com/eventually-consistent-code/cairn2</text>
-  <rect x="14" y="160" width="380" height="50" rx="6" fill="#1e2030"/>
-  <text x="28" y="179" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#f5a97f">$ <tspan fill="#cad3f5">/plugin marketplace add eventually-consistent-code/cairn2</tspan></text>
-  <text x="28" y="196" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#f5a97f">$ <tspan fill="#cad3f5">/plugin install cairn@cairn-dev</tspan></text>
-  <rect x="94.0" y="227" width="220" height="34" rx="6" fill="#b97a5c"/>
-  <rect x="94.0" y="224" width="220" height="34" rx="6" fill="#f5a97f"/>
-  <text x="204.0" y="246" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="700" letter-spacing="1" fill="#24273a">&#9654;  INSTALL CAIRN</text>
+  <text x="28" y="148" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#b97a5c">.../cairn2</text>
+  <rect x="14" y="160" width="380" height="67" rx="6" fill="#1e2030"/>
+  <text x="28" y="179" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#f5a97f">$ <tspan fill="#cad3f5">/plugin marketplace add \</tspan></text>
+  <text x="28" y="196" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#f5a97f">$ <tspan fill="#cad3f5">  eventually-consistent-code-org/cairn2</tspan></text>
+  <text x="28" y="213" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#f5a97f">$ <tspan fill="#cad3f5">/plugin install cairn@cairn-dev</tspan></text>
+  <rect x="94.0" y="244" width="220" height="34" rx="6" fill="#b97a5c"/>
+  <rect x="94.0" y="241" width="220" height="34" rx="6" fill="#f5a97f"/>
+  <text x="204.0" y="263" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="700" letter-spacing="1" fill="#24273a">&#9654;  INSTALL CAIRN</text>
 </svg>

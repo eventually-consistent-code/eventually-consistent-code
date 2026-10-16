@@ -54,9 +54,9 @@ PRODUCTS = [
             "Tracker-truth planning, provenance-checked",
             "memory, one typed MCP server.",
         ],
-        "repo": "eventually-consistent-code/cairn2",
+        "repo": "eventually-consistent-code-org/cairn2",
         "button": "INSTALL CAIRN",
-        "cmd": ["/plugin marketplace add eventually-consistent-code/cairn2", "/plugin install cairn@cairn-dev"],
+        "cmd": ["/plugin marketplace add \\", "  eventually-consistent-code-org/cairn2", "/plugin install cairn@cairn-dev"],
     },
     {
         "slug": "okrdokey",
@@ -184,8 +184,9 @@ def product_card(product):
         f'  <text x="28" y="{76 + i * 22}" font-family="{FONT}" font-size="14" fill="{TEXT}">{esc(line)}</text>\n'
         for i, line in enumerate(product["lines"])
     )
+    # Every card shares the tallest strip so paired cards sit level
     strip_top = 160
-    strip_h = 16 + 17 * len(product["cmd"])
+    strip_h = 16 + 17 * max(len(x["cmd"]) for x in PRODUCTS)
     cmds = "".join(
         f'  <text x="28" y="{strip_top + 19 + i * 17}" font-family="{FONT}" font-size="10" fill="{PEACH}">$ <tspan fill="{TEXT}">{esc(line)}</tspan></text>\n'
         for i, line in enumerate(product["cmd"])
