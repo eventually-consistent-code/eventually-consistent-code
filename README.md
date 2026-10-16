@@ -6,59 +6,23 @@
 
 ## `~/install`
 
-<table>
-<tr>
-<td align="center" width="415">
-
-<a href="https://github.com/eventually-consistent-code/cairn2"><img src="https://raw.githubusercontent.com/eventually-consistent-code/eventually-consistent-code/main/assets/card_cairn.svg" width="408" alt="cairn: converged work management for AI CLIs"></a>
-
-<a href="https://github.com/eventually-consistent-code/cairn2#documentation"><img src="https://img.shields.io/badge/%E2%96%B6-INSTALL%20CAIRN-f5a97f?style=for-the-badge&labelColor=b97a5c" height="34" alt="Install cairn"></a>
-
-```text
-/plugin marketplace add eventually-consistent-code/cairn2
-/plugin install cairn@cairn-dev
-```
-
-</td>
-<td align="center" width="415">
-
-<a href="https://github.com/eventually-consistent-code/okrdokey"><img src="https://raw.githubusercontent.com/eventually-consistent-code/eventually-consistent-code/main/assets/card_okrdokey.svg" width="408" alt="OKRdokey: self-hostable OKR tracker for small teams"></a>
-
-<a href="https://github.com/eventually-consistent-code/okrdokey#quickstart-docker"><img src="https://img.shields.io/badge/%E2%96%B6-RUN%20OKRDOKEY-f5a97f?style=for-the-badge&labelColor=b97a5c" height="34" alt="Run OKRdokey"></a>
+<p align="center">
+  <a href="https://github.com/eventually-consistent-code/cairn2#documentation"><img src="https://raw.githubusercontent.com/eventually-consistent-code/eventually-consistent-code/main/assets/card_cairn.svg" width="408" alt="cairn: converged work management for AI CLIs. Install cairn."></a>
+  <a href="https://github.com/eventually-consistent-code/okrdokey#quickstart-docker"><img src="https://raw.githubusercontent.com/eventually-consistent-code/eventually-consistent-code/main/assets/card_okrdokey.svg" width="408" alt="OKRdokey: self-hostable OKR tracker for small teams. Run OKRdokey."></a>
+  <a href="https://github.com/eventually-consistent-code/TagManager#quick-start"><img src="https://raw.githubusercontent.com/eventually-consistent-code/eventually-consistent-code/main/assets/card_tagmanager.svg" width="408" alt="TagManager: multi-cloud tag compliance. Run TagManager."></a>
+  <a href="https://github.com/eventually-consistent-code/aws-workspaces-multi-region-deployment"><img src="https://raw.githubusercontent.com/eventually-consistent-code/eventually-consistent-code/main/assets/card_workspaces.svg" width="408" alt="AWS WorkSpaces multi-region Terragrunt/Terraform template. Clone the template."></a>
+</p>
 
 ```bash
-git clone https://github.com/eventually-consistent-code/okrdokey.git
-cd okrdokey && docker compose up
+# cairn (Claude Code)
+/plugin marketplace add eventually-consistent-code/cairn2 && /plugin install cairn@cairn-dev
+# OKRdokey
+gh repo clone eventually-consistent-code/okrdokey && cd okrdokey && docker compose up
+# TagManager
+gh repo clone eventually-consistent-code/TagManager && cd TagManager && docker compose up
+# AWS WorkSpaces multi-region template
+gh repo clone eventually-consistent-code/aws-workspaces-multi-region-deployment
 ```
-
-</td>
-</tr>
-<tr>
-<td align="center" width="415">
-
-<a href="https://github.com/eventually-consistent-code/TagManager"><img src="https://raw.githubusercontent.com/eventually-consistent-code/eventually-consistent-code/main/assets/card_tagmanager.svg" width="408" alt="TagManager: multi-cloud tag compliance"></a>
-
-<a href="https://github.com/eventually-consistent-code/TagManager#quick-start"><img src="https://img.shields.io/badge/%E2%96%B6-RUN%20TAGMANAGER-f5a97f?style=for-the-badge&labelColor=b97a5c" height="34" alt="Run TagManager"></a>
-
-```bash
-git clone https://github.com/eventually-consistent-code/TagManager.git
-cd TagManager && docker compose up
-```
-
-</td>
-<td align="center" width="415">
-
-<a href="https://github.com/eventually-consistent-code/aws-workspaces-multi-region-deployment"><img src="https://raw.githubusercontent.com/eventually-consistent-code/eventually-consistent-code/main/assets/card_workspaces.svg" width="408" alt="AWS WorkSpaces multi-region Terragrunt/Terraform template"></a>
-
-<a href="https://github.com/eventually-consistent-code/aws-workspaces-multi-region-deployment"><img src="https://img.shields.io/badge/%E2%96%B6-CLONE%20TEMPLATE-f5a97f?style=for-the-badge&labelColor=b97a5c" height="34" alt="Clone the WorkSpaces template"></a>
-
-```bash
-git clone https://github.com/eventually-consistent-code/aws-workspaces-multi-region-deployment.git
-```
-
-</td>
-</tr>
-</table>
 
 ## `~/status`
 

@@ -55,6 +55,8 @@ PRODUCTS = [
             "memory, one typed MCP server.",
         ],
         "repo": "eventually-consistent-code/cairn2",
+        "button": "INSTALL CAIRN",
+        "cmd": ["/plugin marketplace add eventually-consistent-code/cairn2", "/plugin install cairn@cairn-dev"],
     },
     {
         "slug": "okrdokey",
@@ -65,6 +67,8 @@ PRODUCTS = [
             "your data.",
         ],
         "repo": "eventually-consistent-code/okrdokey",
+        "button": "RUN OKRDOKEY",
+        "cmd": ["gh repo clone eventually-consistent-code/okrdokey", "cd okrdokey && docker compose up"],
     },
     {
         "slug": "tagmanager",
@@ -75,6 +79,8 @@ PRODUCTS = [
             "see it all in one dashboard.",
         ],
         "repo": "eventually-consistent-code/TagManager",
+        "button": "RUN TAGMANAGER",
+        "cmd": ["gh repo clone eventually-consistent-code/TagManager", "cd TagManager && docker compose up"],
     },
     {
         "slug": "workspaces",
@@ -85,6 +91,8 @@ PRODUCTS = [
             "Well-Architected docs, sanitized.",
         ],
         "repo": "eventually-consistent-code/aws-workspaces-multi-region-deployment",
+        "button": "CLONE TEMPLATE",
+        "cmd": ["gh repo clone eventually-consistent-code/ \\", "  aws-workspaces-multi-region-deployment"],
     },
 ]
 
@@ -95,19 +103,19 @@ POSTS = [
         "slug": "post_harness_runs_itself",
         "date": "2026-09-10",
         "title": "The Harness Runs Itself",
-        "line": "cairn runs whole phases unattended inside a token budget, and catches its own bugs in the act.",
+        "line": "cairn runs whole phases unattended inside a token budget, and catches its own bugs.",
     },
     {
         "slug": "post_work_harness",
         "date": "2026-08-14",
         "title": "The Work Harness",
-        "line": "Six weeks turned cairn from a wrapper into a full work harness. Who is it actually competing with?",
+        "line": "Six weeks turned cairn from a wrapper into a work harness. Who is it competing with?",
     },
     {
         "slug": "post_four_tools",
         "date": "2026-08-04",
         "title": "Four Tools in Three Weeks",
-        "line": "What building with AI actually looked like: four products, one coordinated launch, receipts included.",
+        "line": "What building with AI actually looked like: four products, one launch, receipts included.",
     },
 ]
 
@@ -167,16 +175,34 @@ def hero():
 
 def product_card(product):
     """
-    408px product card: title, three-line pitch, repo path.
-    :param product: dict with slug/title/lines/repo
+    Product card: title, three-line pitch, repo path, a terminal strip with
+    the install command, and the action button drawn into the card so the
+    whole image is one link and nothing comes from a third-party badge host.
+    :param product: dict with slug/title/lines/repo/cmd/button
     """
     rows = "".join(
         f'  <text x="28" y="{76 + i * 22}" font-family="{FONT}" font-size="14" fill="{TEXT}">{esc(line)}</text>\n'
         for i, line in enumerate(product["lines"])
     )
+    strip_top = 160
+    strip_h = 16 + 17 * len(product["cmd"])
+    cmds = "".join(
+        f'  <text x="28" y="{strip_top + 19 + i * 17}" font-family="{FONT}" font-size="10" fill="{PEACH}">$ <tspan fill="{TEXT}">{esc(line)}</tspan></text>\n'
+        for i, line in enumerate(product["cmd"])
+    )
+    # Long repo names clip at 408px, so fall back to the bare repo name
+    repo_label = f"github.com/{product['repo']}" if len(product["repo"]) <= 36 else f".../{product['repo'].split('/')[1]}"
+    btn_top = strip_top + strip_h + 14
+    btn_w = 220
+    btn_x = (CARD_W - btn_w) / 2
     body = f"""  <text x="28" y="44" font-family="{FONT}" font-size="22" font-weight="700" fill="{PEACH}">{esc(product["title"])}</text>
-{rows}  <text x="28" y="164" font-family="{FONT}" font-size="12" fill="{PEACH_SHADOW}">github.com/{esc(product["repo"])}</text>"""
-    write(f"card_{product['slug']}", frame(CARD_W, 184, body, f"{product['title']}: {' '.join(product['lines'])}"))
+{rows}  <text x="28" y="148" font-family="{FONT}" font-size="12" fill="{PEACH_SHADOW}">{esc(repo_label)}</text>
+  <rect x="14" y="{strip_top}" width="{CARD_W - 28}" height="{strip_h}" rx="6" fill="{MANTLE}"/>
+{cmds}  <rect x="{btn_x}" y="{btn_top + 3}" width="{btn_w}" height="34" rx="6" fill="{PEACH_SHADOW}"/>
+  <rect x="{btn_x}" y="{btn_top}" width="{btn_w}" height="34" rx="6" fill="{PEACH}"/>
+  <text x="{CARD_W / 2}" y="{btn_top + 22}" text-anchor="middle" font-family="{FONT}" font-size="12" font-weight="700" letter-spacing="1" fill="{BASE}">&#9654;  {esc(product["button"])}</text>"""
+    height = btn_top + 34 + 18
+    write(f"card_{product['slug']}", frame(CARD_W, height, body, f"{product['title']}: {' '.join(product['lines'])} {product['button']}: {' '.join(product['cmd'])}"))
 
 
 def manifesto():
