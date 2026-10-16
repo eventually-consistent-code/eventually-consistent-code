@@ -44,7 +44,7 @@ jobs:
           plugin_languages_sections: most-used
           plugin_languages_limit: 6
           plugin_languages_ignored: html, css, shell
-          plugin_languages_colors: "0:f5a97f, 1:f4dbd6, 2:c6a0f6, 3:8aadf4, 4:a6da95, 5:91d7e3"
+          plugin_languages_colors: "0:#f5a97f, 1:#f4dbd6, 2:#c6a0f6, 3:#8aadf4, 4:#a6da95, 5:#91d7e3"
           # Palette override, verified against the 2026-10-16 render. Three
           # traps: headings carry class="field", so h2.field must outrank the
           # generic .field rule; the isocalendar is a 960px-wide inner <svg>
