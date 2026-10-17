@@ -1,6 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="830" height="96" viewBox="0 0 830 96" role="img" aria-label="Tracker-truth. Provenance-checked. Eventually consistent.">
+<svg xmlns="http://www.w3.org/2000/svg" width="830" height="72" viewBox="0 0 830 72" role="img" aria-label="Tracker-truth. Provenance-checked. Eventually consistent.">
   <title>Tracker-truth. Provenance-checked. Eventually consistent.</title>
-  <rect x="0.5" y="0.5" width="829" height="95" rx="10" fill="#24273a" stroke="#363a4f"/>
-  <rect x="0" y="12" width="4" height="72" rx="2" fill="#f5a97f"/>
-  <text x="415.0" y="58" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="22" font-weight="700" fill="#f5a97f">Tracker-truth. Provenance-checked. Eventually consistent.</text>
+  <defs>
+    <linearGradient id="aqua-bar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fdfeff"/>
+      <stop offset="0.5" stop-color="#eaf1f8"/>
+      <stop offset="0.51" stop-color="#d4e2f0"/>
+      <stop offset="1" stop-color="#e3eef8"/>
+    </linearGradient>
+    <linearGradient id="aqua-blue" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5ea0e6"/>
+      <stop offset="0.5" stop-color="#2f7fd6"/>
+      <stop offset="0.51" stop-color="#2a73c7"/>
+      <stop offset="1" stop-color="#1a5fb4"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#28466e" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+  <rect x="4" y="4" width="822" height="64" rx="10" fill="url(#aqua-bar)" stroke="#9fb6cc"/>
+  <text x="415.0" y="44.0" text-anchor="middle" font-family="'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#14304b">Tracker-truth. Provenance-checked. Eventually consistent.</text>
 </svg>

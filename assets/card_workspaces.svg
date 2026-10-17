@@ -1,16 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="408" height="293" viewBox="0 0 408 293" role="img" aria-label="AWS WorkSpaces, multi-region: Terragrunt/Terraform template for WorkSpaces across regions. Preflight validation, Well-Architected docs, sanitized. CLONE TEMPLATE: gh repo clone eventually-consistent-code/ \   aws-workspaces-multi-region-deployment">
-  <title>AWS WorkSpaces, multi-region: Terragrunt/Terraform template for WorkSpaces across regions. Preflight validation, Well-Architected docs, sanitized. CLONE TEMPLATE: gh repo clone eventually-consistent-code/ \   aws-workspaces-multi-region-deployment</title>
-  <rect x="0.5" y="0.5" width="407" height="292" rx="10" fill="#24273a" stroke="#363a4f"/>
-  <rect x="0" y="12" width="4" height="269" rx="2" fill="#f5a97f"/>
-  <text x="28" y="44" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="22" font-weight="700" fill="#f5a97f">AWS WorkSpaces, multi-region</text>
-  <text x="28" y="76" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#cad3f5">Terragrunt/Terraform template for WorkSpaces</text>
-  <text x="28" y="98" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#cad3f5">across regions. Preflight validation,</text>
-  <text x="28" y="120" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#cad3f5">Well-Architected docs, sanitized.</text>
-  <text x="28" y="148" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#b97a5c">.../aws-workspaces-multi-region-deployment</text>
-  <rect x="14" y="160" width="380" height="67" rx="6" fill="#1e2030"/>
-  <text x="28" y="179" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#f5a97f">$ <tspan fill="#cad3f5">gh repo clone eventually-consistent-code/ \</tspan></text>
-  <text x="28" y="196" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#f5a97f">$ <tspan fill="#cad3f5">  aws-workspaces-multi-region-deployment</tspan></text>
-  <rect x="94.0" y="244" width="220" height="34" rx="6" fill="#b97a5c"/>
-  <rect x="94.0" y="241" width="220" height="34" rx="6" fill="#f5a97f"/>
-  <text x="204.0" y="263" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="700" letter-spacing="1" fill="#24273a">&#9654;  CLONE TEMPLATE</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="408" height="331" viewBox="0 0 408 331" role="img" aria-label="AWS WorkSpaces: Terragrunt/Terraform template for WorkSpaces across regions. Preflight validation, Well-Architected docs, sanitized. CLONE TEMPLATE: gh repo clone eventually-consistent-code/ \   aws-workspaces-multi-region-deployment">
+  <title>AWS WorkSpaces: Terragrunt/Terraform template for WorkSpaces across regions. Preflight validation, Well-Architected docs, sanitized. CLONE TEMPLATE: gh repo clone eventually-consistent-code/ \   aws-workspaces-multi-region-deployment</title>
+  <defs>
+    <linearGradient id="aqua-bar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fdfeff"/>
+      <stop offset="0.5" stop-color="#eaf1f8"/>
+      <stop offset="0.51" stop-color="#d4e2f0"/>
+      <stop offset="1" stop-color="#e3eef8"/>
+    </linearGradient>
+    <linearGradient id="aqua-blue" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5ea0e6"/>
+      <stop offset="0.5" stop-color="#2f7fd6"/>
+      <stop offset="0.51" stop-color="#2a73c7"/>
+      <stop offset="1" stop-color="#1a5fb4"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#28466e" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+  <rect x="4" y="4" width="400" height="323" rx="10" fill="#ffffff" stroke="#9db3c7" filter="url(#shadow)"/>
+  <clipPath id="win"><rect x="4" y="4" width="400" height="323" rx="10"/></clipPath>
+  <rect x="4" y="4" width="400" height="26" fill="url(#aqua-bar)" clip-path="url(#win)"/>
+  <line x1="4" y1="30.5" x2="404" y2="30.5" stroke="#9fb6cc"/>
+  <circle cx="22" cy="17.0" r="5.5" fill="#ff5f57" stroke="#000" stroke-opacity="0.18"/>
+  <circle cx="40" cy="17.0" r="5.5" fill="#febc2e" stroke="#000" stroke-opacity="0.18"/>
+  <circle cx="58" cy="17.0" r="5.5" fill="#28c840" stroke="#000" stroke-opacity="0.18"/>
+  <text x="234.0" y="21.5" text-anchor="middle" font-family="'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" fill="#14304b">.../aws-workspaces-multi-region-deployment</text>
+  <rect x="28" y="46" width="56" height="56" rx="12.32" fill="url(#aqua-blue)" stroke="#1a5fb4"/>
+  <rect x="30" y="48" width="52" height="26.0" rx="10.08" fill="#ffffff" fill-opacity="0.22"/>
+  <text x="56.0" y="82.96000000000001" text-anchor="middle" font-family="'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="22.400000000000002" font-weight="700" fill="#ffffff">WS</text>
+  <text x="100" y="82" font-family="'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#14304b">AWS WorkSpaces</text>
+  <text x="28" y="134" font-family="'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" fill="#1f2d3a">Terragrunt/Terraform template for WorkSpaces</text>
+  <text x="28" y="156" font-family="'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" fill="#1f2d3a">across regions. Preflight validation,</text>
+  <text x="28" y="178" font-family="'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" fill="#1f2d3a">Well-Architected docs, sanitized.</text>
+  <rect x="16" y="194" width="376" height="67" rx="6" fill="#1c1d21"/>
+  <text x="28" y="213" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#8ab4f8">$ <tspan fill="#e6edf3">gh repo clone eventually-consistent-code/ \</tspan></text>
+  <text x="28" y="230" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#8ab4f8">$ <tspan fill="#e6edf3">  aws-workspaces-multi-region-deployment</tspan></text>
+  <rect x="94.0" y="275" width="220" height="34" rx="17" fill="url(#aqua-blue)" stroke="#1a5fb4"/>
+  <rect x="97.0" y="277" width="214" height="15" rx="8" fill="#ffffff" fill-opacity="0.28"/>
+  <text x="204.0" y="297" text-anchor="middle" font-family="'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1" fill="#ffffff">&#9654;  CLONE TEMPLATE</text>
+
 </svg>

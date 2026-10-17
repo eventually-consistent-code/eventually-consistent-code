@@ -44,7 +44,7 @@ jobs:
           plugin_languages_sections: most-used
           plugin_languages_limit: 6
           plugin_languages_ignored: html, css, shell
-          plugin_languages_colors: "0:#f5a97f, 1:#f4dbd6, 2:#c6a0f6, 3:#8aadf4, 4:#a6da95, 5:#91d7e3"
+          plugin_languages_colors: "0:#2f7fd6, 1:#1a5fb4, 2:#4fb3bf, 3:#7fb0e6, 4:#14304b, 5:#9db3c7"
           # Palette override, verified against the 2026-10-16 render. Three
           # traps: headings carry class="field", so h2.field must outrank the
           # generic .field rule; the isocalendar is a 960px-wide inner <svg>
@@ -52,12 +52,12 @@ jobs:
           # the calendar hardcodes GitHub's green ramp as fill attributes, which
           # attribute selectors override.
           extras_css: |
-            svg:root, body { background: #24273a !important; }
-            .field, .row, .text, .legend, span, p { color: #cad3f5 !important; }
-            h1.field, h2.field, h3.field { color: #f5a97f !important; border-color: #b97a5c !important; }
-            text { fill: #cad3f5 !important; }
-            [fill="#ebedf0"] { fill: #363a4f !important; }
-            [fill="#9be9a8"] { fill: #6b5040 !important; }
-            [fill="#40c463"] { fill: #9c6b4e !important; }
-            [fill="#30a14e"] { fill: #d48f68 !important; }
-            [fill="#216e39"] { fill: #f5a97f !important; }
+            svg:root, body { background: #ffffff !important; }
+            .field, .row, .text, .legend, span, p { color: #1f2d3a !important; }
+            h1.field, h2.field, h3.field { color: #2f7fd6 !important; border-color: #c3d3e2 !important; }
+            text { fill: #1f2d3a !important; }
+            [fill="#ebedf0"] { fill: #e3eef8 !important; }
+            [fill="#9be9a8"] { fill: #b7d3f2 !important; }
+            [fill="#40c463"] { fill: #7fb0e6 !important; }
+            [fill="#30a14e"] { fill: #2f7fd6 !important; }
+            [fill="#216e39"] { fill: #1a5fb4 !important; }

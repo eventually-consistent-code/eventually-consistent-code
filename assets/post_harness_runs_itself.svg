@@ -1,8 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="830" height="96" viewBox="0 0 830 96" role="img" aria-label="The Harness Runs Itself (2026-09-10): cairn runs whole phases unattended inside a token budget, and catches its own bugs.">
+<svg xmlns="http://www.w3.org/2000/svg" width="830" height="92" viewBox="0 0 830 92" role="img" aria-label="The Harness Runs Itself (2026-09-10): cairn runs whole phases unattended inside a token budget, and catches its own bugs.">
   <title>The Harness Runs Itself (2026-09-10): cairn runs whole phases unattended inside a token budget, and catches its own bugs.</title>
-  <rect x="0.5" y="0.5" width="829" height="95" rx="10" fill="#24273a" stroke="#363a4f"/>
-  <rect x="0" y="12" width="4" height="72" rx="2" fill="#f5a97f"/>
-  <text x="28" y="40" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#b97a5c">2026-09-10</text>
-  <text x="120" y="40" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18" font-weight="700" fill="#f5a97f">The Harness Runs Itself</text>
-  <text x="28" y="70" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#cad3f5">cairn runs whole phases unattended inside a token budget, and catches its own bugs.</text>
+  <defs>
+    <linearGradient id="aqua-bar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fdfeff"/>
+      <stop offset="0.5" stop-color="#eaf1f8"/>
+      <stop offset="0.51" stop-color="#d4e2f0"/>
+      <stop offset="1" stop-color="#e3eef8"/>
+    </linearGradient>
+    <linearGradient id="aqua-blue" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5ea0e6"/>
+      <stop offset="0.5" stop-color="#2f7fd6"/>
+      <stop offset="0.51" stop-color="#2a73c7"/>
+      <stop offset="1" stop-color="#1a5fb4"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#28466e" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+  <rect x="4" y="4" width="822" height="84" rx="10" fill="#ffffff" stroke="#9db3c7" filter="url(#shadow)"/>
+  <text x="28" y="40" font-family="'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" fill="#5f7389">2026-09-10</text>
+  <text x="118" y="40" font-family="'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#14304b">The Harness Runs Itself</text>
+  <text x="28" y="68" font-family="'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" fill="#1f2d3a">cairn runs whole phases unattended inside a token budget, and catches its own bugs.</text>
+  <text x="802" y="40" text-anchor="end" font-family="'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#2f7fd6">READ &#9654;</text>
 </svg>
